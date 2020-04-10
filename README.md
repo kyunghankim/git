@@ -122,3 +122,45 @@ Changes not staged for commit:
 
 ## Git 원격저장소 활용(Github)
 
+* Github에 repository를 생성한다.
+
+### 0. 원격 저장소 설정
+
+* 원격 저장소 설정
+
+  ```bash
+  $ git remote add origin {__url__}
+  ```
+
+  * 원격저장소(`remote`)로 `origin` 이름으로 `url` 을 추가(`add`)
+
+* 원격 저장소 목록
+
+  ```bash
+  $ git remote -v
+  origin  https://github.com/edutak/test-repo.git (fetch)
+  origin  https://github.com/edutak/test-repo.git (push)
+  ```
+
+* 원격 저장소 삭제
+
+  ```bash
+  $ git remote rm origin
+  ```
+
+  * `origin` 이름의 원격 저장소 설정을 삭제(remove - `rm` )
+
+### 1. `push`
+
+```bash
+$ git push origin master
+```
+
+* 현재 폴더를 그대로 업로드 하는 것이 아니라, 지금까지의 이력/버전(commit)을 `push` 하는 것이다.
+* Working directory, Staging area의 변경사항들은 원격저장소로 `push`  되지 않는다.
+* 따라서, `push` 전에 `$ git status` , `$ git log` 를 통해서 확인하는 습관을 가지자.
+
+
+
+
+
