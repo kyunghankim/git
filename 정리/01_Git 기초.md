@@ -161,6 +161,10 @@ $ git push origin master
 * 따라서, `push` 전에 `$ git status` , `$ git log` 를 통해서 확인하는 습관을 가지자.
 
 
+### 2. pull
 
+```bash
+$ git pull origin master
+```
 
-
+* 원격저장소 변경 사항(이력)을 받아온다.
