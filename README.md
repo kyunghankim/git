@@ -90,6 +90,34 @@ $ git commit -m '커밋메시지'
 
   
 
+## Git 상태 메시지
+
+```bash
+$ git status
+# branch 정보
+On branch master
+Your branch is up to date with 'origin/master'.
+
+# 커밋될 변경사항
+# Staging area
+Changes to be committed:
+  # unstage => add를 취소하는 명령어(staging area -> WD)
+  (use "git restore --staged <file>..." to unstage)
+        modified:   cli.txt
+
+# stage 상태가 아닌 변경사항
+# Working directory
+Changes not staged for commit:
+  # WD => staging area
+  (use "git add <file>..." to update what will be committed)
+  # WD 작업 내용을 모두 삭제(되돌릴 수 없음.)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   a.txt
+
+```
+
+
+
 
 
 ## Git 원격저장소 활용(Github)
