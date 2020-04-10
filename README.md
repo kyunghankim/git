@@ -20,23 +20,25 @@ Initialized empty Git repository in C:/Users/student/Desktop/폴더/.git/
 
 ### 1. `add`
 
-```bash
-# a.txt를 만든 상황
-$ git status
-On branch master
+* 해당 폴더에서 작업 후 상황
 
-No commits yet
-# 트래킹 되고 있지 않은 파일들
-# => git으로 버전을 남긴적이 없는 파일
-Untracked files:
-  # staging area에 포함시키려면, git add
-  # (커밋될 파일 목록)
-  (use "git add <file>..." to include in what will be committed)
-        a.txt
-# 커밋할 내용 없지만, 트래킹 되지 않는 파일은 존재한다.
-# => WD O, Staging Area X
-nothing added to commit but untracked files present (use "git add" to track)
-```
+    ```bash
+    # a.txt를 만든 상황
+    $ git status
+    On branch master
+
+    No commits yet
+    # 트래킹 되고 있지 않은 파일들
+    # => git으로 버전을 남긴적이 없는 파일
+    Untracked files:
+      # staging area에 포함시키려면, git add
+      # (커밋될 파일 목록)
+      (use "git add <file>..." to include in what will be committed)
+            a.txt
+    # 커밋할 내용 없지만, 트래킹 되지 않는 파일은 존재한다.
+    # => WD O, Staging Area X
+    nothing added to commit but untracked files present (use "git add" to track)
+    ```
 
 * staging area에 추가
 
