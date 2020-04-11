@@ -4,6 +4,20 @@
 
 수업 내용은 [git bash](https://gitforwindows.org/)를 기반으로 설명한다.
 
+## Git 사전 준비
+
+> git 을 사용하기 전에 커밋을 남기는 사람에 대한 정보를
+
+```bash
+$ git config --global user.name '{username}'
+$ git config --global user.email '{email}'
+```
+
+* 추후에 commit을 작성한 사람(author)로 저장된다.
+* email 정보는 github에서 활용하고 있는 email과 동일하게 설정하는 것을 추천한다.
+
+
+
 ## Git 기초 흐름
 
 ### 0. 저장소 설정
