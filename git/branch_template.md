@@ -52,7 +52,7 @@
 
 > fast-foward는 feature 브랜치 생성된 이후 master 브랜치에 변경 사항이 없는 상황
 
-1. feature/test branch 생성 및 이동
+1. feature/data-clean branch 생성 및 이동
 
    
 
@@ -87,7 +87,7 @@
 >
 > git이 auto merging을 진행하고, **commit이 발생된다.**
 
-1. feature/signout branch 생성 및 이동
+1. feature/tensorflow branch 생성 및 이동
 
    
 
@@ -111,13 +111,7 @@
 
 6. 결과 -> 자동으로 *merge commit 발생*
 
-   * vim 편집기 화면이 나타납니다.
-   
-   * 자동으로 작성된 커밋 메시지를 확인하고, `esc`를 누른 후 `:wq`를 입력하여 저장 및 종료를 합니다.
-      * `w` : write
-      * `q` : quit
-      
-   * 커밋이  확인 해봅시다.
+
    
 7. 그래프 확인하기
 
@@ -139,7 +133,7 @@
 >
 > 원하는 형태의 코드로 직접 수정을 하고 직접 commit을 발생 시켜야 한다.
 
-1. feature/board branch 생성 및 이동
+1. feature/visualization branch 생성 및 이동
 
    
 
